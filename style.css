@@ -1,161 +1,159 @@
 * {
-    font-family: Circular Std;
+  font-family: "Montserrat", sans-serif;
 }
 
 .NavContainer {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 150px;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  margin-top: 30px;
 }
 
 .logo {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .MidFeature {
-    display: flex;
-    
+  display: flex;
 }
 
 .opt {
-    margin: 0px 20px;
+  margin: 0px 20px;
 }
 
 select {
-    border:0px;
-   outline:0px;
+  border: 0px;
+  outline: 0px;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #login {
-    border: none;
-    background-color: white;
-    margin-right: 10px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
 }
 
 #Account {
-    padding: 7px 10px;
-    border-radius: 4px;
-    background-color: red;
-    border: none;
-    color: white;
+  padding: 7px 10px;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: white;
 }
 
 /* Section Starts */
 
 section {
-    margin: 0px 200px;
-    display: flex;
-    justify-content: space-between;
+  margin: 0px 200px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .TextSide {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .Heading {
-    font-size: 110px;
-    font-weight: bold;
-    line-height: 100px;  
-} 
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 100px;
+}
 
 .SubHeading {
-    margin-top: 10px;
-    font-weight: bold;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .topcheck {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .topcheck {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-row-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 5px;
 }
 
 .SectionBtn {
-    display: flex;
-    margin-top: 50px;
+  display: flex;
+  margin-top: 50px;
 }
 
 .SectionBtn > button {
-    padding: 10px 25px;
+  padding: 10px 25px;
 }
 
-
 #SectionBtn1 {
-    margin-right: 10px;
-    background-color: red;
-    border: none;
-    border-radius: 4px;
-    color: white;
+  margin-right: 10px;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  color: white;
 }
 
 #SectionBtn2 {
-    border: none;
-    background-color: white;
-    color: red;
+  border: none;
+  background-color: white;
+  color: red;
 }
 
 .CardImg > img {
-    width: 550px;
-    height: 550px;
+  width: 550px;
+  height: 550px;
 }
 
 /* Article Starts */
 
 .ArtContainer {
-    display: flex;
-    margin: 100px 200px;
-    justify-content: space-between;
+  display: flex;
+  margin: 100px 200px;
+  justify-content: space-between;
 }
 
 .TextArticle {
-    width: 640px;
+  width: 640px;
 }
 
 .ArtHeading {
-    font-size: 110px;
-    font-weight: bold;
-    line-height: 110px;  
-    margin-bottom: 50px;
+  font-size: 110px;
+  font-weight: bold;
+  line-height: 110px;
+  margin-bottom: 50px;
 }
 
 .ArtCardContainer {
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-    grid-row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-row-gap: 20px;
 }
 
 .Card {
-    border: 1px solid grey;
-    border-radius: 7px;
-    width: 250px;
-    padding: 20px;
-    box-shadow: 3px 3px 2px black ;
+  border: 1px solid grey;
+  border-radius: 7px;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 3px 3px 2px black;
 }
 
 .CardHeading {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .Card > img {
-    width: 40px;
-    height: 40px;
-    border: 1px solid grey;
-    border-radius: 100px;
-    padding: 7px;
-    overflow: visible;
-    box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 100px;
+  padding: 7px;
+  overflow: visible;
+  box-sizing: border-box;
 }
 
 .ImageArticle > img {
-    width: 350px;
-    height: 650px;
-    margin-right: 100px;
+  width: 350px;
+  height: 650px;
+  margin-right: 100px;
 }
